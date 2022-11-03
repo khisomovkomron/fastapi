@@ -1,7 +1,7 @@
 import sys
 sys.path.append("..")
 
-from fastapi import Depends,APIRouter
+from fastapi import Depends, APIRouter
 import models
 from database import engine, SessionLocal
 from sqlalchemy.orm import Session
@@ -32,8 +32,7 @@ class UserVerification(BaseModel):
     password: str
     new_password: str
     
-      
-        
+    
 @router.get('/')
 async def read_all(db: Session = Depends(get_db)):
     return db.query(models.Users).all()

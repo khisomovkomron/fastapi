@@ -127,6 +127,7 @@ def get_user_exception():
     )
     return credentials_exceptions
 
+
 def token_exception():
     token_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
