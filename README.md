@@ -16,7 +16,7 @@
 
 
 
-# FastAPI
+## FastAPI
 
 * pip install fastapi[all] -> install framework with all dependencies
 
@@ -24,7 +24,7 @@
 
 
 
-# FastAPI Routers
+## FastAPI Routers
 
 * http://127.0.0.1:8000 - code
 
@@ -36,7 +36,7 @@
 
 
 
-# ALEMBIC 
+## ALEMBIC 
 * alembic init "folder name" - initializes a new, generic environment
 
 * alembic revision -m "message"  - creates a new revision of the environment
